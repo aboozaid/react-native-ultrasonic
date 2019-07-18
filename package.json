@@ -1,0 +1,38 @@
+{
+  "name": "react-native-ultrasonic",
+  "version": "1.0.0",
+  "description": "Send data over sound technology with fastest and secure way!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-native",
+    "android",
+    "audio",
+    "connection",
+    "hotspot",
+    "wifi-direct",
+    "ultrasonic",
+    "waves"
+  ],
+  "author": {
+    "name": "Assem Abozaid",
+    "email": "assemabozaidfcih@gmail.com"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/assemmohamedali/react-native-ultrasonic",
+  "bugs": "https://github.com/assemmohamedali/react-native-ultrasonic/issues",
+  "peerDependencies": {
+    "react-native": ">=0.50"
+  },
+  "dependencies": {},
+  "rnpm": {
+    "android": {
+      "packageInstance": "new UltrasonicModule()"
+    }
+  }
+
+}
