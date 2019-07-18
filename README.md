@@ -20,7 +20,7 @@ So, let me introduce you ultrasonic library which focuses to send your small dat
 <img src="docs/ezgif.com-video-to-gif.gif" /><br>
 
 ## Example
-🔥 [Checkout](https://github.com/assemmohamedali/react-native-ultrasonic/tree/master/Example) our main example to get started debugging or testing.
+🔥 [Checkout](https://github.com/assemmohamedali/react-native-ultrasonic/tree/master/example) our main example to get started debugging or testing.
 
 ## Getting Started
 * install it via
@@ -56,7 +56,7 @@ ndk.dir=/root/ndk
 ## Document
 <b> ultrasonic.initialize({}) -> Take object of sound type -> Return promise</b>
 
-> Before sending any data you've to call this function to be initialized and ready to send data. You must call it only via sender-side only.
+> Before sending any data you've to call this function to be initialized and ready to send data. You must call it via sender-side only.
 
 <b> ultrasonic.send({}) -> Take object of payload -> Return promise</b>
 
@@ -64,7 +64,7 @@ ndk.dir=/root/ndk
 
 <b> ultrasonic.receive({}) -> Take object of sound type -> Return promise</b>
 
-> Before receiving any data you've to call this function to be initialized and ready to receive data. You must call it only via receiver-side only.
+> Before receiving any data you've to call this function to be initialized and ready to receive data. You must call it via receiver-side only.
 
 To be able to listen for any coming data you have to set these events into your `componentDidMount` and remove them in `componentWillUnmount`
 
@@ -89,6 +89,7 @@ To be able to listen for any coming data you have to set these events into your 
         alert(error);
     }
 ~~~
+
 * Every sound type below has its own weakness and strength (distance - payload - waves). you can debug to choose the most fit to you
 
 | Function | Object | Types | Default
